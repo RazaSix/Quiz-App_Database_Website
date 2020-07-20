@@ -1,0 +1,233 @@
+/*Outlining the design for the body of the site*/
+body 
+{
+	/* background-color: #0040ff; */
+	font-size: 20px;
+	/* margin: 100px 500px 100px; 
+	 width:	800px;
+    height: 500px; */
+
+    /* margin: 2% 20% 0%;
+    width:	50%;
+    height: 45%; */
+
+}
+	
+/* Create and View questionnaire buttons: Animation */
+#myButton 
+{
+	background-color:#ffffff;
+	border-radius:6px;
+	border:10px solid #dcdcdc;
+	color:#666666;
+	font-size:50px;
+	font-weight:bold;
+	padding:10px 70px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	margin: 0 auto;
+}
+
+#myButton:hover 
+{
+	background-color:#00ffff;
+}
+
+#myButton:active 
+{
+	position:relative;
+	top:1px;
+}
+
+/* http://www.corelangs.com/css/box/center-div.html#sthash.TpoIjXur.dpuf */
+
+/* Create and View questionnaire buttons:  Positioning */
+.createBtn 
+{ 
+	width: 60%; 
+	height:200px; 
+	margin: 0 auto; 
+	}
+
+/* List of questionnaire links in blocks */
+a.qlinks:link 
+{
+    color: black;
+	text-decoration: none;
+}
+
+.qblocks 
+{ 
+	width: 60%;
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid ;
+	color:#666666;
+	text-decoration:none;
+}
+
+	
+.qblocks:hover 
+{
+	background-color:orange;
+}
+	
+/* Noticeboard containing welcome message */
+.noticeBoard
+{
+	width: 80%; 
+	margin: 0 auto; 
+	background-color:#3333ff;
+	
+}
+
+
+.quizselect 
+{ 
+	width: 60%; 
+	height:200px; 
+	margin: 0 auto; 
+}
+
+
+	
+/* Images?? */
+img 
+{
+	max-width: 500px;
+    max-height: 500px;	
+}
+
+/*Formatting Forms*/	
+label.formed 
+{
+	text-align: left;
+	width: 200px;
+	float: left;
+}
+
+input.textbox 
+{
+	width: 300px;
+	float: right;
+}
+
+
+/*Social Media Buttons*/
+#social
+{
+    width:50px;
+    height: auto;
+}
+	
+/*Other Buttons*/
+#btnsAll 
+{
+	background-color: #E0FFFF;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	color:#666666;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	margin: 10px 0 0 14px;
+}
+
+#btnsAll:hover 
+{
+	background-color:#ADD8E6;
+}
+
+#btnsAll:active 
+{
+	position:relative;
+	top:1px;
+}
+
+	
+/*Each page has a content header which is styled here */
+#content_header
+{
+	color: #FFFFFF;
+ 	text-align: center; 
+	background-color: #0040ff;
+	padding:1px 1px 1px 1px;
+	text-shadow: 2px 2px #000000;
+}
+
+
+
+#content
+{
+	background-color: #00bfff;
+	padding: 50px 50px;
+
+}
+
+	
+#q1 
+{
+	background-color: #e6e6ff;
+}
+
+#q2 
+{
+	background-color: #ccccff;
+}
+
+#q3 
+{
+	background-color: #b3b3ff;
+}
+
+	
+/*Menu bar links*/
+a.link_colour:link 
+{
+	text-decoration: none;
+	color: #FFFFFF; 
+} 
+
+a.link_colour:visited {color: #FFFFFF;} 
+
+a.link_colour:hover 
+{
+	
+}
+
+	
+li.links 
+{
+    display: inline;
+	padding: 14px 25px 3px 1px;
+	color: #FFFFFF; 
+	text-decoration: none
+	border: 1px solid red;
+    border-radius: 5px;
+    background-color: #687C99;
+}
+	
+
+li.links:hover  
+{
+    background-color: #6495ED;
+	padding: 20px 25px 3px 1px;
+}
+
+nav
+{
+	background-color: #00bfff;
+	padding: 14px 25px 3px 1px;
+}
+
+
+/**the footer is coloured here to match the body**/
+footer
+{
+	background-color: #0080ff;
+	text-align: center;
+}
+
+
